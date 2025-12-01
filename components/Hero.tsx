@@ -141,7 +141,10 @@ export default function Hero() {
                   <div>
                     <p className="font-medium text-emerald-800">No alerts today</p>
                     <p className="text-sm text-emerald-600">Last check: 2 minutes ago</p>
-                  </div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
             
             {/* Floating notification */}
             <motion.div
@@ -164,5 +167,5 @@ export default function Hero() {
         </div>
       </div>
     </section>
-  </div></div></div></div></div></div>);
+  );
 }
